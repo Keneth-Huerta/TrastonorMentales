@@ -30,9 +30,7 @@ h3 {
 .qr {
   transform: scale(5) translate(-75px, 60px);
 }
-@media (max-width: 845px) {body{
-  background-color: ree;
-}
+@media (max-width: 845px) {
   .qr {
     transform: scale(1.1s) translate(-75px, 60px);
   }
