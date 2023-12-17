@@ -27,17 +27,21 @@ section ul li {
   border-radius: 10px;
   transition: transform 1s;
   margin: 10px;
+  max-width: 300px;
 }
 section ul li:hover {
   transform: scale(1.15);
 }
 section ul li a {
+  max-width: 300px;
   font-size: 2vw;
   color: black;
   text-decoration: none;
 }
 
 li a img {
+  max-width: 300px;
+  max-height: 300px;
   height: 20vw;
   width: 20vw;
   margin: auto;
