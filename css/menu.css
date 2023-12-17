@@ -1,11 +1,10 @@
 body {
- 
   background-image: url("../assets/fondo.jpg");
   background-size: 210vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  padding:70px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 nav {
@@ -72,13 +71,15 @@ nav ul {
   padding: 0;
 }
 @media (max-width: 845px) {
-  nav{
+  body {
+    padding: 0;
+  }
+  nav {
     position: relative;
   }
   .nav-boton {
     /*display: inline-block;*/
     display: inline-block;
-    
   }
   .desaparece {
     display: none;
@@ -94,16 +95,9 @@ nav ul {
   }
   #nvs {
     margin-top: 25px;
-
   }
 }
 
-#qr2 {
-  
-  
-  
-  
-}
 #imagenprincipio {
   border-radius: 20px;
   justify-content: center;
