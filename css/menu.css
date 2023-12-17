@@ -27,6 +27,7 @@ nav a {
   border-radius: 5px;
   box-shadow: 2px 2px 5px;
   transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.511);
 }
 
 #house {
@@ -48,17 +49,7 @@ li {
   float: left;
   list-style: none;
 }
-#marcado {
-  background-color: #555;
-  border: 1px solid white;
-  color: white;
-  box-shadow: 2px 2px 5px black;
-}
-#marcado:hover {
-  border: 1px solid black;
-  color: black;
-  background-color: rgba(255, 255, 255, 0);
-}
+
 .nav-boton {
   display: none;
   color: black;
@@ -81,13 +72,9 @@ nav ul {
   padding: 0;
 }
 @media (max-width: 845px) {
-<<<<<<< HEAD
   nav{
     position: relative;
   }
-=======
-
->>>>>>> 7c6207346b85c99ce65436e558e7ecf493fea5ab
   .nav-boton {
     /*display: inline-block;*/
     display: inline-block;
