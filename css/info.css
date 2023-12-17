@@ -8,24 +8,32 @@ p {
   text-shadow: 1px 1px 1px white;
   text-align: justify;
 }
-h2{
+h2 {
   text-shadow: 1px 1px 1px white;
 }
-h3{
+h3 {
   text-shadow: 1px 1px 1px white;
 }
 .junto {
   text-align: center;
 }
-.img{
+.img {
   height: 30vw;
   max-height: 300px;
 }
-#qr{
-  transition: all .5s;
+#qr {
+  transition: all 0.5s;
   cursor: pointer;
+  position: fixed;
+  right: 0%;
 }
-.qr{
-  
-  transform: scale(5) translate(-75px,60px);
+.qr {
+  transform: scale(5) translate(-75px, 60px);
+}
+@media (max-width: 845px) {body{
+  background-color: ree;
+}
+  .qr {
+    transform: scale(1.1s) translate(-75px, 60px);
+  }
 }
