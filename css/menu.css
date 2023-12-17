@@ -107,6 +107,10 @@ nav ul {
 #qr2 {
   position: fixed;
   left: 87%;
-
   
+  
+}
+#imagenprincipio {
+  border-radius: 20px;
+  justify-content: center;
 }
