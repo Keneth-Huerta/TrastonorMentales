@@ -5,7 +5,7 @@ function accion() {
         ancla[i].classList.toggle("desaparece");
     }
 }
-function ani(){
-    var anima=document.getElementById("qr");
+function ani() {
+    var anima = document.getElementById("qr");
     anima.classList.toggle("qr")
 }
